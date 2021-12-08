@@ -23,12 +23,6 @@ export class FileController {
   @UseInterceptors(FileInterceptor('file'))
   async create(@UploadedFile() file, @Res() response) {
     
-    // const myArray = file.originalname.split('.');
-    // const path0 = path.join(file.destination, file.filename);
-    //const path1 = path.join(file.destination, `${file.filename}.${myArray[1]}`);
-    //fs.renameSync(path0, path1);
-    //const dataImage = Buffer.from(file.buffer).toString('base64');
-
     const data = {
       file:file.originalname,
       content_type: file.mimetype,
