@@ -42,6 +42,9 @@ npm start
 | GET| /files| Esta rota lista todos os arquivos do banco de dados.
 | GET| /files/view/:id| Esta rota retorna faz o donwload do arquivo
 
+## Post
+[Slavando arquivos no mysql usando nestjs](https://felipemateus.com/blog/2021/12/mysql-salvando-arquivos-com-nestjs-mysql)
+
 ## Author
 
 **[Felipe Mateus](https://eufelipemateus.com/)**  -  [eufelipemateus](https://github.com/eufelipemateus)
